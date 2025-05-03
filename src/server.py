@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from fastmcp import FastMCP
 
 mcp = FastMCP("MCP Demo Server")
