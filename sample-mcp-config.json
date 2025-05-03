@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/tmp"
+            ]
+        },
+        "local-dev": {
+            "command": "uv",
+            "args": [
+                "--directory", "/home/fatesaikou/testPY/mcp-demo/src",
+                "run", "server.py"
+            ]
+        }
+    }
+}
