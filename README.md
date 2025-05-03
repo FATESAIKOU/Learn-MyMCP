@@ -30,3 +30,6 @@ $ nano sample-mcp-config.json
 # start mcphost
 $ mcphost -m ollama:qwen2.5:latest --config <path to ./sample-mcp-config>
 ```
+
+## Additional - redirect mcphost ollama request
+- [gist](https://gist.github.com/FATESAIKOU/7e43cda9f9d7475f60c8be2f8f75253f)
