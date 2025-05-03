@@ -1,4 +1,4 @@
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 mcp = FastMCP("MCP Demo Server")
 
@@ -11,3 +11,6 @@ def add(a: int, b: int) -> int:
 def greeting(name: str) -> str:
     """Return a personalized greeting"""
     return f"Hello, {name}!"
+
+if __name__ == "__main__":
+    mcp.run(transport='http')
